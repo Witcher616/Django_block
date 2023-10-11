@@ -1,9 +1,0 @@
-{% load custom_tags %}
-
-{% get_categories as categories %}
-{{ categories }}
-<div class="list-group">
-  {% for category in categories %}
-  <a href="#" class="list-group-item list-group-item-action">{{ category }}</a>
-  {% endfor %}
-</div>
